@@ -57,12 +57,3 @@ vector<double> short_rate(int n, double r0, double T, double volatility, double 
 
     return r;
 }
-
-int main()
-{
-    int n = 50;
-    double T = 5.0;
-    vector<double> r = short_rate(n, 5.0, T, 1.0, 1.0, 4.0);
-
-    return 0;
-}
